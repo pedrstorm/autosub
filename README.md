@@ -1,17 +1,17 @@
 # :) Unsubscribe para Pros and Juniors 💪 💨
 
 #### Português 😁
- Decorador de classe que irá automaticamente cancelar os observáveis ​​quando o componente for destruído e não só  .
+Decorador de classe que irá automaticamente cancelar os observáveis ​​quando o componente for destruído e não só  .
 
 #### English 👳
- Class decorator that will automatically unsubscribe from observable subscriptions when the component is destroyed .
+Class decorator that will automatically unsubscribe from observable subscriptions when the component is destroyed .
 
 ## Installation ⚡️
 
 `npm install ngx-leave --save`
 
 
-## Usage   AutoLeave
+## Usando  AutoLeave
 
 ```js
 import {AutoLeave} from "ngx-leave";
@@ -67,7 +67,7 @@ export class testComponent implements OnInit, OnDestroy {
 
 constructor(  ) {  }
 
- ngOnInit() {
+ngOnInit() {
     interval(1000)
       .pipe(Leave(this))
       .subscribe(val => console.log(val));
@@ -116,6 +116,4 @@ We test  💕 💞
 
 
 ### Obrigado  👊 👊 ✊ ✌️
-All Devs no java 👽 😂😂 
-
-
+All Devs no java 👽 😂😂
