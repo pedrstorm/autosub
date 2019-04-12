@@ -1,5 +1,9 @@
 # :) Unsubscribe para Pros and Juniors 💪 💨
 
+### Problema 
+Subscription Zombie - A falta de unsubscription
+Quando você se inscrever em um evento observável ou em JavaScript, será necessário cancelar a assinatura da memória do sistema quando terminar de usá-lo. Caso contrário, você terá um vazamento de memória
+
 #### Português 😁
 Decorador de classe que irá automaticamente cancelar os observáveis ​​quando o componente for destruído e não só  .
 
