@@ -1,10 +1,10 @@
 # :) Unsubscribe para Pros and Juniors 💪 💨
 
 #### Português 😁
- Decorador de classe que irá automaticamente cancelar os observáveis ​​quando o componente for destruído e não só  🚀
+ Decorador de classe que irá automaticamente cancelar os observáveis ​​quando o componente for destruído e não só  .
 
 #### English 👳
- Class decorator that will automatically unsubscribe from observable subscriptions when the component is destroyed
+ Class decorator that will automatically unsubscribe from observable subscriptions when the component is destroyed .
 
 ## Installation ⚡️
 
@@ -28,8 +28,9 @@ export class appComponent  implements OnInit, OnDestroy{
 
   ngOnInit() {
 
-    this.um$ = Observable.interval.subscribe(data => console.log(data));
-    this.dois$ = Observable.interval.subscribe(data => console.log(data));
+    const mapSource = from(map).subscribe(val => console.log(val));
+    this.um$ = Rx.Observable.create(o=>this.myObserver = o);
+
 
   }
 
@@ -57,7 +58,7 @@ Nota: `blackList` sera iginorado se `arrayName` tiver algum valor definido.
 ## Usando Leave
 
 ```ts
-import { Leave } from 'ngx-leave';
+import {Leave} from 'ngx-leave';
 
 @Component({
   selector: 'app-test',
@@ -87,7 +88,7 @@ Leave(this,FunctionName);
 ### Usando em uma class
 
 ```ts
-import { Leave } from 'ngx-leave';
+import {Leave} from 'ngx-leave';
 
 export class Widget {
   constructor() {
