@@ -22,7 +22,6 @@ import {AutoLeave} from "ngx-leave";
 })
 export class appComponent  implements OnInit, OnDestroy{
   um$: Subscription;
-  dois$: Subscription;
 
   constructor(  ) {  }
 
