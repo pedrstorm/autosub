@@ -1,12 +1,10 @@
 # :) Unsubscribe para Pros and Juniors 💪 💨
 
 #### Português 😁
- Decorador de classe que irá automaticamente cancelar os observáveis ​​quando o componente for destruído,Forma declarativa de cancelar a assinatura de observáveis ​​quando o componente é destruído
+ Decorador de classe que irá automaticamente cancelar os observáveis ​​quando o componente for destruído e não só  🚀
 
 #### English 👳
- Class decorator that will automatically unsubscribe from observable subscriptions when the component is destroyed,Declarative way to unsubscribe from observables when the component destroyed
-
-
+ Class decorator that will automatically unsubscribe from observable subscriptions when the component is destroyed
 
 ## Installation ⚡️
 
@@ -118,4 +116,6 @@ We test  💕 💞
 
 
 ### Obrigado  👊 👊 ✊ ✌️
-All JS Developers
+All Devs {no java 👽 😂  😂 }
+
+
